@@ -1,0 +1,242 @@
+[
+ {
+  "id": "ORG-1",
+  "domain": "Accountability",
+  "q": "A named executive owns cloud risk AND spend, with authority to stop deployments.",
+  "check": null,
+  "w": 3,
+  "e": 2,
+  "refs": "NIST CSF 2.0 GV.RR-01; ISO 27001 5.3",
+  "fix": "Appoint accountable executive; publish RACI; add to board charter"
+ },
+ {
+  "id": "ORG-2",
+  "domain": "Accountability",
+  "q": "A cloud governance board meets monthly, with minuted decisions and tracked actions.",
+  "check": null,
+  "w": 2,
+  "e": 1,
+  "refs": "NIST CSF 2.0 GV.OV; COBIT APO01",
+  "fix": "Stand up board; 60-min monthly cadence; action log"
+ },
+ {
+  "id": "ORG-3",
+  "domain": "Accountability",
+  "q": "Every cloud account sits in the central organization with a named owner.",
+  "check": "ORG_ACCOUNTS",
+  "w": 3,
+  "e": 3,
+  "refs": "CIS 1.1; FedRAMP CM-8",
+  "fix": "Sweep shadow accounts; enforce org SCPs; require owner at creation"
+ },
+ {
+  "id": "IAM-1",
+  "domain": "Identity",
+  "q": "MFA is enforced for every human identity, including root/break-glass.",
+  "check": "MFA",
+  "w": 3,
+  "e": 2,
+  "refs": "NIST 800-53 IA-2(1); CIS 1.5; PCI 8.4",
+  "fix": "Enforce phishing-resistant MFA via conditional access; vault root"
+ },
+ {
+  "id": "IAM-2",
+  "domain": "Identity",
+  "q": "No wildcard admin policies; privileges are reviewed at least quarterly.",
+  "check": "WILDCARD",
+  "w": 3,
+  "e": 4,
+  "refs": "NIST AC-6; ISO 27001 A.8.2",
+  "fix": "Replace *:* with scoped roles; quarterly access recertification"
+ },
+ {
+  "id": "IAM-3",
+  "domain": "Identity",
+  "q": "Dormant identities are disabled within 90 days.",
+  "check": "STALE",
+  "w": 2,
+  "e": 2,
+  "refs": "NIST AC-2(3); SOX ITGC",
+  "fix": "Automate joiner-mover-leaver and 90-day dormancy disable"
+ },
+ {
+  "id": "FIN-1",
+  "domain": "FinOps",
+  "q": "Every resource carries owner and cost-center tags, enforced at deploy time.",
+  "check": "TAGS",
+  "w": 3,
+  "e": 3,
+  "refs": "FinOps Framework: Allocation",
+  "fix": "Tag-or-deny policy; backfill from CMDB; showback reports"
+ },
+ {
+  "id": "FIN-2",
+  "domain": "FinOps",
+  "q": "Every account has a budget with alerts routed to the cost owner.",
+  "check": "BUDGET",
+  "w": 2,
+  "e": 1,
+  "refs": "FinOps: Planning & Forecasting",
+  "fix": "Budget-per-account via IaC baseline; alert to owner not mailbox"
+ },
+ {
+  "id": "FIN-3",
+  "domain": "FinOps",
+  "q": "Idle and orphaned resources are reviewed and reclaimed monthly.",
+  "check": "IDLE",
+  "w": 2,
+  "e": 2,
+  "refs": "FinOps: Usage Optimization",
+  "fix": "Auto-schedule dev/test; rightsizing review; reclaim owner-less assets"
+ },
+ {
+  "id": "SEC-1",
+  "domain": "Security",
+  "q": "No storage is publicly reachable without a time-boxed, approved exception.",
+  "check": "PUBLIC",
+  "w": 3,
+  "e": 2,
+  "refs": "CIS 3.3; NIST AC-3; FFIEC",
+  "fix": "Block public access at org level; exception register with expiry"
+ },
+ {
+  "id": "SEC-2",
+  "domain": "Security",
+  "q": "All data stores are encrypted at rest with managed keys and rotation.",
+  "check": "ENCRYPT",
+  "w": 3,
+  "e": 3,
+  "refs": "NIST SC-28; PCI 3.5; ISO A.8.24",
+  "fix": "Enable default encryption; deny unencrypted creates; rotate keys"
+ },
+ {
+  "id": "SEC-3",
+  "domain": "Security",
+  "q": "Continuous control monitoring reports to executives against a named framework.",
+  "check": null,
+  "w": 2,
+  "e": 3,
+  "refs": "NIST CSF 2.0 GV.OV-03; FedRAMP ConMon",
+  "fix": "Deploy CSPM; map to framework; monthly exec scorecard"
+ },
+ {
+  "id": "DAT-1",
+  "domain": "Data & Sovereignty",
+  "q": "Data residency is technically enforced by an approved-region allow-list.",
+  "check": "REGION",
+  "w": 3,
+  "e": 3,
+  "refs": "GDPR Ch.V; DORA Art.28; Nigeria NDPA; FedRAMP",
+  "fix": "Org-level region-deny policy; migrate or exception-register offenders"
+ },
+ {
+  "id": "DAT-2",
+  "domain": "Data & Sovereignty",
+  "q": "All data stores carry a classification label that drives controls.",
+  "check": null,
+  "w": 2,
+  "e": 4,
+  "refs": "ISO 27001 A.5.12; NIST RA-2",
+  "fix": "Classification taxonomy; auto-label; link to encryption/residency"
+ },
+ {
+  "id": "DAT-3",
+  "domain": "Data & Sovereignty",
+  "q": "Retention schedules and legal holds are defined and enforced in cloud storage.",
+  "check": null,
+  "w": 2,
+  "e": 3,
+  "refs": "NARA/records mgmt; SOX 802",
+  "fix": "Retention policies per class; legal-hold workflow with legal team"
+ },
+ {
+  "id": "RES-1",
+  "domain": "Resilience",
+  "q": "Every critical workload has automated, restore-tested backups.",
+  "check": "BACKUP",
+  "w": 3,
+  "e": 3,
+  "refs": "NIST CP-9; DORA Art.12; FFIEC BCM",
+  "fix": "Backup-by-default for tier-1; quarterly restore tests"
+ },
+ {
+  "id": "RES-2",
+  "domain": "Resilience",
+  "q": "Disaster recovery is tested at least annually with evidenced RTO/RPO.",
+  "check": null,
+  "w": 3,
+  "e": 4,
+  "refs": "NIST CP-4; DORA Art.11/24; ISO 22301",
+  "fix": "Annual DR exercise; evidence pack for regulators"
+ },
+ {
+  "id": "RES-3",
+  "domain": "Resilience",
+  "q": "A tested exit and portability plan exists for every critical cloud service.",
+  "check": null,
+  "w": 2,
+  "e": 5,
+  "refs": "DORA Art.28(8); EBA Outsourcing; OCC 2023-17",
+  "fix": "Exit plans per critical service; stressed-exit tabletop"
+ },
+ {
+  "id": "AUT-1",
+  "domain": "Automation",
+  "q": "Policy-as-code guardrails block non-compliant deployments before they land.",
+  "check": null,
+  "w": 3,
+  "e": 4,
+  "refs": "NIST CM-2/CM-6; CIS Benchmarks",
+  "fix": "OPA/SCP guardrails in CI and at org level"
+ },
+ {
+  "id": "AUT-2",
+  "domain": "Automation",
+  "q": "Infrastructure changes occur only through reviewed IaC pipelines.",
+  "check": null,
+  "w": 2,
+  "e": 4,
+  "refs": "NIST CM-3; SOX change mgmt",
+  "fix": "Remove console write access; pipeline-only deploys"
+ },
+ {
+  "id": "AUT-3",
+  "domain": "Automation",
+  "q": "Policy exceptions are time-boxed, approved, and expire automatically.",
+  "check": null,
+  "w": 2,
+  "e": 2,
+  "refs": "NIST CA-5 (POA&M)",
+  "fix": "Exception register with owner, expiry, auto-revoke"
+ },
+ {
+  "id": "TPR-1",
+  "domain": "Third-Party Risk",
+  "q": "Provider and region concentration risk is measured and within board appetite.",
+  "check": "CONC",
+  "w": 3,
+  "e": 4,
+  "refs": "DORA Art.29; BoE/PRA SS2/21; FSB",
+  "fix": "Set concentration appetite; multi-region for tier-1"
+ },
+ {
+  "id": "TPR-2",
+  "domain": "Third-Party Risk",
+  "q": "Contracts give audit rights, incident notice SLAs and sub-processor visibility.",
+  "check": null,
+  "w": 2,
+  "e": 3,
+  "refs": "DORA Art.30; GDPR Art.28",
+  "fix": "Contract addendum program for top-20 providers"
+ },
+ {
+  "id": "TPR-3",
+  "domain": "Third-Party Risk",
+  "q": "SaaS and shadow-IT inventory is complete and risk-tiered.",
+  "check": null,
+  "w": 2,
+  "e": 3,
+  "refs": "ISO 27001 A.5.19-5.22; NIST SR-6",
+  "fix": "CASB/SSPM discovery; tier and onboard"
+ }
+]

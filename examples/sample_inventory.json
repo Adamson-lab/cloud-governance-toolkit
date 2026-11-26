@@ -1,0 +1,3774 @@
+{
+ "policy": {
+  "allowed_regions": [
+   "us-east-1",
+   "eu-west-1"
+  ]
+ },
+ "resources": [
+  {
+   "id": "vm-000",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-11",
+    "cost_center": "CC103"
+   },
+   "cost": 379.86,
+   "public": false,
+   "encrypted": true,
+   "critical": true,
+   "cpu_avg": 3.6,
+   "backup": true
+  },
+  {
+   "id": "vm-001",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-7",
+    "cost_center": "CC103"
+   },
+   "cost": 263.06,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 40.8,
+   "backup": true
+  },
+  {
+   "id": "disk-002",
+   "type": "disk",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-3",
+    "cost_center": "CC118"
+   },
+   "cost": 69.48,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "db-003",
+   "type": "db",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-10",
+    "cost_center": "CC140"
+   },
+   "cost": 1823.46,
+   "public": false,
+   "encrypted": true,
+   "critical": true,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "bucket-004",
+   "type": "bucket",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-6",
+    "cost_center": "CC129"
+   },
+   "cost": 138.69,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "vm-005",
+   "type": "vm",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-9",
+    "cost_center": "CC131"
+   },
+   "cost": 316.11,
+   "public": false,
+   "encrypted": false,
+   "critical": false,
+   "cpu_avg": 2.0,
+   "backup": false
+  },
+  {
+   "id": "vm-006",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-1",
+    "cost_center": "CC104"
+   },
+   "cost": 797.89,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 42.0,
+   "backup": false
+  },
+  {
+   "id": "bucket-007",
+   "type": "bucket",
+   "region": "us-east-1",
+   "tags": {},
+   "cost": 200.92,
+   "public": true,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "disk-008",
+   "type": "disk",
+   "region": "ap-southeast-1",
+   "tags": {
+    "owner": "team-7"
+   },
+   "cost": 48.17,
+   "public": false,
+   "encrypted": false,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "bucket-009",
+   "type": "bucket",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-4",
+    "cost_center": "CC118"
+   },
+   "cost": 78.05,
+   "public": false,
+   "encrypted": false,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "k8s-010",
+   "type": "k8s",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-3",
+    "cost_center": "CC127"
+   },
+   "cost": 1479.77,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 67.1,
+   "backup": true
+  },
+  {
+   "id": "vm-011",
+   "type": "vm",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-4",
+    "cost_center": "CC100"
+   },
+   "cost": 295.45,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 26.5,
+   "backup": false
+  },
+  {
+   "id": "disk-012",
+   "type": "disk",
+   "region": "eu-west-1",
+   "tags": {},
+   "cost": 84.38,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "db-013",
+   "type": "db",
+   "region": "us-east-1",
+   "tags": {},
+   "cost": 393.31,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "vm-014",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-3",
+    "cost_center": "CC107"
+   },
+   "cost": 80.19,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 1.8,
+   "backup": true
+  },
+  {
+   "id": "disk-015",
+   "type": "disk",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-3",
+    "cost_center": "CC140"
+   },
+   "cost": 48.21,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "disk-016",
+   "type": "disk",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-8"
+   },
+   "cost": 25.85,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "bucket-017",
+   "type": "bucket",
+   "region": "us-east-1",
+   "tags": {},
+   "cost": 285.85,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "db-018",
+   "type": "db",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-11",
+    "cost_center": "CC105"
+   },
+   "cost": 1011.74,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "bucket-019",
+   "type": "bucket",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-4"
+   },
+   "cost": 237.58,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "k8s-020",
+   "type": "k8s",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-8"
+   },
+   "cost": 472.64,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 48.8,
+   "backup": false
+  },
+  {
+   "id": "k8s-021",
+   "type": "k8s",
+   "region": "us-east-1",
+   "tags": {},
+   "cost": 973.2,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 1.1,
+   "backup": false
+  },
+  {
+   "id": "disk-022",
+   "type": "disk",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-11"
+   },
+   "cost": 80.74,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "k8s-023",
+   "type": "k8s",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-3"
+   },
+   "cost": 625.55,
+   "public": false,
+   "encrypted": false,
+   "critical": false,
+   "cpu_avg": 33.0,
+   "backup": false
+  },
+  {
+   "id": "vm-024",
+   "type": "vm",
+   "region": "ap-southeast-1",
+   "tags": {
+    "owner": "team-3",
+    "cost_center": "CC101"
+   },
+   "cost": 741.33,
+   "public": false,
+   "encrypted": true,
+   "critical": true,
+   "cpu_avg": 68.6,
+   "backup": false
+  },
+  {
+   "id": "k8s-025",
+   "type": "k8s",
+   "region": "af-south-1",
+   "tags": {
+    "owner": "team-3",
+    "cost_center": "CC101"
+   },
+   "cost": 2089.15,
+   "public": false,
+   "encrypted": true,
+   "critical": true,
+   "cpu_avg": 30.9,
+   "backup": false
+  },
+  {
+   "id": "disk-026",
+   "type": "disk",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-5",
+    "cost_center": "CC113"
+   },
+   "cost": 36.46,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "k8s-027",
+   "type": "k8s",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-12",
+    "cost_center": "CC122"
+   },
+   "cost": 2519.12,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 61.6,
+   "backup": true
+  },
+  {
+   "id": "vm-028",
+   "type": "vm",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-8",
+    "cost_center": "CC111"
+   },
+   "cost": 202.84,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 9.3,
+   "backup": true
+  },
+  {
+   "id": "db-029",
+   "type": "db",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-8",
+    "cost_center": "CC106"
+   },
+   "cost": 599.57,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "bucket-030",
+   "type": "bucket",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-2",
+    "cost_center": "CC128"
+   },
+   "cost": 292.14,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "bucket-031",
+   "type": "bucket",
+   "region": "us-east-1",
+   "tags": {},
+   "cost": 159.35,
+   "public": false,
+   "encrypted": false,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "disk-032",
+   "type": "disk",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-8",
+    "cost_center": "CC108"
+   },
+   "cost": 53.16,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "k8s-033",
+   "type": "k8s",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-5",
+    "cost_center": "CC107"
+   },
+   "cost": 2261.91,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 4.0,
+   "backup": false
+  },
+  {
+   "id": "vm-034",
+   "type": "vm",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-8"
+   },
+   "cost": 263.44,
+   "public": false,
+   "encrypted": true,
+   "critical": true,
+   "cpu_avg": 28.9,
+   "backup": true
+  },
+  {
+   "id": "k8s-035",
+   "type": "k8s",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-6",
+    "cost_center": "CC101"
+   },
+   "cost": 2228.19,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 21.4,
+   "backup": false
+  },
+  {
+   "id": "vm-036",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-2"
+   },
+   "cost": 822.84,
+   "public": false,
+   "encrypted": true,
+   "critical": true,
+   "cpu_avg": 57.6,
+   "backup": false
+  },
+  {
+   "id": "db-037",
+   "type": "db",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-9"
+   },
+   "cost": 1795.98,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "db-038",
+   "type": "db",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-2",
+    "cost_center": "CC117"
+   },
+   "cost": 2033.83,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "vm-039",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-6"
+   },
+   "cost": 830.65,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 3.3,
+   "backup": false
+  },
+  {
+   "id": "disk-040",
+   "type": "disk",
+   "region": "ap-southeast-1",
+   "tags": {
+    "owner": "team-3",
+    "cost_center": "CC112"
+   },
+   "cost": 79.15,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "k8s-041",
+   "type": "k8s",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-1"
+   },
+   "cost": 447.93,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 36.5,
+   "backup": true
+  },
+  {
+   "id": "k8s-042",
+   "type": "k8s",
+   "region": "us-east-1",
+   "tags": {},
+   "cost": 2710.69,
+   "public": false,
+   "encrypted": false,
+   "critical": false,
+   "cpu_avg": 15.8,
+   "backup": true
+  },
+  {
+   "id": "vm-043",
+   "type": "vm",
+   "region": "af-south-1",
+   "tags": {},
+   "cost": 885.14,
+   "public": false,
+   "encrypted": true,
+   "critical": true,
+   "cpu_avg": 2.9,
+   "backup": false
+  },
+  {
+   "id": "k8s-044",
+   "type": "k8s",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-11",
+    "cost_center": "CC124"
+   },
+   "cost": 1133.03,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 32.7,
+   "backup": true
+  },
+  {
+   "id": "k8s-045",
+   "type": "k8s",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-6",
+    "cost_center": "CC135"
+   },
+   "cost": 2694.21,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 1.6,
+   "backup": true
+  },
+  {
+   "id": "vm-046",
+   "type": "vm",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-1"
+   },
+   "cost": 197.97,
+   "public": false,
+   "encrypted": true,
+   "critical": true,
+   "cpu_avg": 21.7,
+   "backup": false
+  },
+  {
+   "id": "vm-047",
+   "type": "vm",
+   "region": "ap-southeast-1",
+   "tags": {},
+   "cost": 722.91,
+   "public": false,
+   "encrypted": true,
+   "critical": true,
+   "cpu_avg": 50.7,
+   "backup": true
+  },
+  {
+   "id": "vm-048",
+   "type": "vm",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-3",
+    "cost_center": "CC102"
+   },
+   "cost": 500.64,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 35.9,
+   "backup": false
+  },
+  {
+   "id": "db-049",
+   "type": "db",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-1",
+    "cost_center": "CC137"
+   },
+   "cost": 2396.78,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "vm-050",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {},
+   "cost": 121.64,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 17.9,
+   "backup": true
+  },
+  {
+   "id": "bucket-051",
+   "type": "bucket",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-9",
+    "cost_center": "CC134"
+   },
+   "cost": 160.17,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "disk-052",
+   "type": "disk",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-4",
+    "cost_center": "CC114"
+   },
+   "cost": 117.33,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "bucket-053",
+   "type": "bucket",
+   "region": "eu-west-1",
+   "tags": {},
+   "cost": 194.62,
+   "public": true,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "db-054",
+   "type": "db",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-10",
+    "cost_center": "CC108"
+   },
+   "cost": 781.62,
+   "public": false,
+   "encrypted": true,
+   "critical": true,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "db-055",
+   "type": "db",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-9",
+    "cost_center": "CC118"
+   },
+   "cost": 428.48,
+   "public": false,
+   "encrypted": false,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "disk-056",
+   "type": "disk",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-8"
+   },
+   "cost": 65.73,
+   "public": false,
+   "encrypted": false,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "k8s-057",
+   "type": "k8s",
+   "region": "us-east-1",
+   "tags": {},
+   "cost": 2343.46,
+   "public": false,
+   "encrypted": true,
+   "critical": true,
+   "cpu_avg": 42.6,
+   "backup": false
+  },
+  {
+   "id": "vm-058",
+   "type": "vm",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-6",
+    "cost_center": "CC114"
+   },
+   "cost": 403.15,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 48.0,
+   "backup": false
+  },
+  {
+   "id": "db-059",
+   "type": "db",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-7",
+    "cost_center": "CC120"
+   },
+   "cost": 912.69,
+   "public": false,
+   "encrypted": true,
+   "critical": true,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "disk-060",
+   "type": "disk",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-1",
+    "cost_center": "CC118"
+   },
+   "cost": 17.15,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "vm-061",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {},
+   "cost": 122.33,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 11.3,
+   "backup": false
+  },
+  {
+   "id": "k8s-062",
+   "type": "k8s",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-6",
+    "cost_center": "CC127"
+   },
+   "cost": 2040.33,
+   "public": false,
+   "encrypted": false,
+   "critical": false,
+   "cpu_avg": 38.9,
+   "backup": false
+  },
+  {
+   "id": "vm-063",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-3"
+   },
+   "cost": 120.16,
+   "public": false,
+   "encrypted": false,
+   "critical": false,
+   "cpu_avg": 2.2,
+   "backup": true
+  },
+  {
+   "id": "vm-064",
+   "type": "vm",
+   "region": "eu-west-1",
+   "tags": {},
+   "cost": 326.69,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 12.5,
+   "backup": true
+  },
+  {
+   "id": "vm-065",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-4"
+   },
+   "cost": 702.58,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 17.8,
+   "backup": true
+  },
+  {
+   "id": "bucket-066",
+   "type": "bucket",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-6",
+    "cost_center": "CC116"
+   },
+   "cost": 64.63,
+   "public": true,
+   "encrypted": false,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "db-067",
+   "type": "db",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-5",
+    "cost_center": "CC121"
+   },
+   "cost": 1499.56,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "bucket-068",
+   "type": "bucket",
+   "region": "us-east-1",
+   "tags": {},
+   "cost": 269.55,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "vm-069",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {},
+   "cost": 706.23,
+   "public": false,
+   "encrypted": true,
+   "critical": true,
+   "cpu_avg": 34.8,
+   "backup": true
+  },
+  {
+   "id": "disk-070",
+   "type": "disk",
+   "region": "us-east-1",
+   "tags": {},
+   "cost": 59.38,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "vm-071",
+   "type": "vm",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-12"
+   },
+   "cost": 813.81,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 1.1,
+   "backup": true
+  },
+  {
+   "id": "bucket-072",
+   "type": "bucket",
+   "region": "af-south-1",
+   "tags": {
+    "owner": "team-12",
+    "cost_center": "CC119"
+   },
+   "cost": 189.81,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "vm-073",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-10",
+    "cost_center": "CC112"
+   },
+   "cost": 572.87,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 32.8,
+   "backup": false
+  },
+  {
+   "id": "bucket-074",
+   "type": "bucket",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-4"
+   },
+   "cost": 13.64,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "vm-075",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {},
+   "cost": 427.94,
+   "public": false,
+   "encrypted": true,
+   "critical": true,
+   "cpu_avg": 49.0,
+   "backup": false
+  },
+  {
+   "id": "k8s-076",
+   "type": "k8s",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-1",
+    "cost_center": "CC118"
+   },
+   "cost": 933.57,
+   "public": false,
+   "encrypted": false,
+   "critical": false,
+   "cpu_avg": 57.6,
+   "backup": true
+  },
+  {
+   "id": "vm-077",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-10"
+   },
+   "cost": 263.13,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 66.5,
+   "backup": true
+  },
+  {
+   "id": "k8s-078",
+   "type": "k8s",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-10",
+    "cost_center": "CC109"
+   },
+   "cost": 878.67,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 22.7,
+   "backup": true
+  },
+  {
+   "id": "vm-079",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-4",
+    "cost_center": "CC111"
+   },
+   "cost": 463.44,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 58.9,
+   "backup": false
+  },
+  {
+   "id": "k8s-080",
+   "type": "k8s",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-2",
+    "cost_center": "CC117"
+   },
+   "cost": 2701.45,
+   "public": false,
+   "encrypted": true,
+   "critical": true,
+   "cpu_avg": 27.2,
+   "backup": false
+  },
+  {
+   "id": "vm-081",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-12"
+   },
+   "cost": 834.0,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 62.9,
+   "backup": true
+  },
+  {
+   "id": "k8s-082",
+   "type": "k8s",
+   "region": "us-east-1",
+   "tags": {},
+   "cost": 562.71,
+   "public": false,
+   "encrypted": false,
+   "critical": true,
+   "cpu_avg": 52.6,
+   "backup": false
+  },
+  {
+   "id": "vm-083",
+   "type": "vm",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-10",
+    "cost_center": "CC102"
+   },
+   "cost": 339.52,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 3.4,
+   "backup": false
+  },
+  {
+   "id": "bucket-084",
+   "type": "bucket",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-4"
+   },
+   "cost": 216.09,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "disk-085",
+   "type": "disk",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-8"
+   },
+   "cost": 98.28,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "db-086",
+   "type": "db",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-6",
+    "cost_center": "CC120"
+   },
+   "cost": 1549.93,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "vm-087",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-11",
+    "cost_center": "CC102"
+   },
+   "cost": 211.77,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 0.5,
+   "backup": false
+  },
+  {
+   "id": "vm-088",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-12",
+    "cost_center": "CC128"
+   },
+   "cost": 457.96,
+   "public": false,
+   "encrypted": false,
+   "critical": true,
+   "cpu_avg": 38.2,
+   "backup": false
+  },
+  {
+   "id": "db-089",
+   "type": "db",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-5"
+   },
+   "cost": 1884.46,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "vm-090",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-10",
+    "cost_center": "CC112"
+   },
+   "cost": 893.81,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 56.8,
+   "backup": false
+  },
+  {
+   "id": "disk-091",
+   "type": "disk",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-8",
+    "cost_center": "CC114"
+   },
+   "cost": 110.58,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "vm-092",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-10",
+    "cost_center": "CC112"
+   },
+   "cost": 790.22,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 54.7,
+   "backup": false
+  },
+  {
+   "id": "vm-093",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-10",
+    "cost_center": "CC122"
+   },
+   "cost": 195.92,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 42.4,
+   "backup": false
+  },
+  {
+   "id": "vm-094",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-6",
+    "cost_center": "CC126"
+   },
+   "cost": 336.0,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 38.8,
+   "backup": true
+  },
+  {
+   "id": "vm-095",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-9",
+    "cost_center": "CC109"
+   },
+   "cost": 214.23,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 20.5,
+   "backup": true
+  },
+  {
+   "id": "disk-096",
+   "type": "disk",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-10",
+    "cost_center": "CC122"
+   },
+   "cost": 12.0,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "bucket-097",
+   "type": "bucket",
+   "region": "ap-southeast-1",
+   "tags": {
+    "owner": "team-7",
+    "cost_center": "CC113"
+   },
+   "cost": 133.08,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "bucket-098",
+   "type": "bucket",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-3",
+    "cost_center": "CC108"
+   },
+   "cost": 167.71,
+   "public": false,
+   "encrypted": false,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "bucket-099",
+   "type": "bucket",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-9",
+    "cost_center": "CC110"
+   },
+   "cost": 88.57,
+   "public": false,
+   "encrypted": false,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "bucket-100",
+   "type": "bucket",
+   "region": "us-east-1",
+   "tags": {},
+   "cost": 42.36,
+   "public": false,
+   "encrypted": false,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "vm-101",
+   "type": "vm",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-12"
+   },
+   "cost": 211.43,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 28.9,
+   "backup": false
+  },
+  {
+   "id": "disk-102",
+   "type": "disk",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-4",
+    "cost_center": "CC102"
+   },
+   "cost": 66.97,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "vm-103",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {},
+   "cost": 701.12,
+   "public": false,
+   "encrypted": true,
+   "critical": true,
+   "cpu_avg": 9.1,
+   "backup": false
+  },
+  {
+   "id": "bucket-104",
+   "type": "bucket",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-7"
+   },
+   "cost": 78.53,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "vm-105",
+   "type": "vm",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-8",
+    "cost_center": "CC129"
+   },
+   "cost": 719.58,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 2.2,
+   "backup": true
+  },
+  {
+   "id": "vm-106",
+   "type": "vm",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-2",
+    "cost_center": "CC128"
+   },
+   "cost": 113.33,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 22.6,
+   "backup": false
+  },
+  {
+   "id": "vm-107",
+   "type": "vm",
+   "region": "eu-west-1",
+   "tags": {},
+   "cost": 101.2,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 48.8,
+   "backup": true
+  },
+  {
+   "id": "vm-108",
+   "type": "vm",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-3"
+   },
+   "cost": 261.32,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 18.4,
+   "backup": true
+  },
+  {
+   "id": "bucket-109",
+   "type": "bucket",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-5"
+   },
+   "cost": 276.37,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "vm-110",
+   "type": "vm",
+   "region": "ap-southeast-1",
+   "tags": {
+    "owner": "team-3",
+    "cost_center": "CC125"
+   },
+   "cost": 637.34,
+   "public": false,
+   "encrypted": false,
+   "critical": true,
+   "cpu_avg": 3.6,
+   "backup": true
+  },
+  {
+   "id": "bucket-111",
+   "type": "bucket",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-8"
+   },
+   "cost": 176.11,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "bucket-112",
+   "type": "bucket",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-6",
+    "cost_center": "CC116"
+   },
+   "cost": 113.84,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "vm-113",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-1",
+    "cost_center": "CC118"
+   },
+   "cost": 604.18,
+   "public": false,
+   "encrypted": false,
+   "critical": false,
+   "cpu_avg": 46.8,
+   "backup": true
+  },
+  {
+   "id": "vm-114",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-3",
+    "cost_center": "CC118"
+   },
+   "cost": 500.4,
+   "public": false,
+   "encrypted": false,
+   "critical": false,
+   "cpu_avg": 1.2,
+   "backup": false
+  },
+  {
+   "id": "vm-115",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-6",
+    "cost_center": "CC119"
+   },
+   "cost": 263.89,
+   "public": false,
+   "encrypted": true,
+   "critical": true,
+   "cpu_avg": 15.1,
+   "backup": false
+  },
+  {
+   "id": "bucket-116",
+   "type": "bucket",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-4",
+    "cost_center": "CC109"
+   },
+   "cost": 23.78,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "disk-117",
+   "type": "disk",
+   "region": "ap-southeast-1",
+   "tags": {
+    "owner": "team-9"
+   },
+   "cost": 75.42,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "bucket-118",
+   "type": "bucket",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-3",
+    "cost_center": "CC100"
+   },
+   "cost": 161.8,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "db-119",
+   "type": "db",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-9",
+    "cost_center": "CC112"
+   },
+   "cost": 1578.99,
+   "public": false,
+   "encrypted": true,
+   "critical": true,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "disk-120",
+   "type": "disk",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-5",
+    "cost_center": "CC104"
+   },
+   "cost": 15.33,
+   "public": false,
+   "encrypted": false,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "db-121",
+   "type": "db",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-7",
+    "cost_center": "CC129"
+   },
+   "cost": 562.17,
+   "public": false,
+   "encrypted": false,
+   "critical": true,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "bucket-122",
+   "type": "bucket",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-12",
+    "cost_center": "CC116"
+   },
+   "cost": 83.47,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "bucket-123",
+   "type": "bucket",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-11",
+    "cost_center": "CC113"
+   },
+   "cost": 154.69,
+   "public": false,
+   "encrypted": false,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "vm-124",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-6",
+    "cost_center": "CC112"
+   },
+   "cost": 276.12,
+   "public": false,
+   "encrypted": false,
+   "critical": false,
+   "cpu_avg": 48.8,
+   "backup": false
+  },
+  {
+   "id": "disk-125",
+   "type": "disk",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-9",
+    "cost_center": "CC100"
+   },
+   "cost": 58.09,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "vm-126",
+   "type": "vm",
+   "region": "ap-southeast-1",
+   "tags": {
+    "owner": "team-10",
+    "cost_center": "CC137"
+   },
+   "cost": 198.57,
+   "public": false,
+   "encrypted": true,
+   "critical": true,
+   "cpu_avg": 4.2,
+   "backup": true
+  },
+  {
+   "id": "vm-127",
+   "type": "vm",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-1",
+    "cost_center": "CC108"
+   },
+   "cost": 651.55,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 2.7,
+   "backup": true
+  },
+  {
+   "id": "disk-128",
+   "type": "disk",
+   "region": "us-east-1",
+   "tags": {},
+   "cost": 105.46,
+   "public": false,
+   "encrypted": false,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "vm-129",
+   "type": "vm",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-2",
+    "cost_center": "CC102"
+   },
+   "cost": 745.86,
+   "public": false,
+   "encrypted": true,
+   "critical": true,
+   "cpu_avg": 44.6,
+   "backup": true
+  },
+  {
+   "id": "vm-130",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-11",
+    "cost_center": "CC113"
+   },
+   "cost": 294.15,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 4.3,
+   "backup": false
+  },
+  {
+   "id": "disk-131",
+   "type": "disk",
+   "region": "us-east-1",
+   "tags": {},
+   "cost": 41.64,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "vm-132",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-2",
+    "cost_center": "CC122"
+   },
+   "cost": 544.2,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 40.6,
+   "backup": true
+  },
+  {
+   "id": "k8s-133",
+   "type": "k8s",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-5",
+    "cost_center": "CC103"
+   },
+   "cost": 1677.86,
+   "public": false,
+   "encrypted": true,
+   "critical": true,
+   "cpu_avg": 2.3,
+   "backup": true
+  },
+  {
+   "id": "disk-134",
+   "type": "disk",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-3",
+    "cost_center": "CC118"
+   },
+   "cost": 113.21,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "disk-135",
+   "type": "disk",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-12"
+   },
+   "cost": 21.5,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "disk-136",
+   "type": "disk",
+   "region": "us-east-1",
+   "tags": {},
+   "cost": 81.04,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "k8s-137",
+   "type": "k8s",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-3",
+    "cost_center": "CC124"
+   },
+   "cost": 2854.19,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 48.6,
+   "backup": false
+  },
+  {
+   "id": "vm-138",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-9",
+    "cost_center": "CC109"
+   },
+   "cost": 534.06,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 48.5,
+   "backup": true
+  },
+  {
+   "id": "vm-139",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-11",
+    "cost_center": "CC115"
+   },
+   "cost": 698.88,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 50.9,
+   "backup": false
+  },
+  {
+   "id": "db-140",
+   "type": "db",
+   "region": "af-south-1",
+   "tags": {
+    "owner": "team-6",
+    "cost_center": "CC110"
+   },
+   "cost": 757.92,
+   "public": false,
+   "encrypted": false,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "vm-141",
+   "type": "vm",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-3"
+   },
+   "cost": 681.3,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 2.9,
+   "backup": true
+  },
+  {
+   "id": "vm-142",
+   "type": "vm",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-1",
+    "cost_center": "CC100"
+   },
+   "cost": 648.62,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 33.0,
+   "backup": true
+  },
+  {
+   "id": "bucket-143",
+   "type": "bucket",
+   "region": "ap-southeast-1",
+   "tags": {
+    "owner": "team-12",
+    "cost_center": "CC115"
+   },
+   "cost": 131.86,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "vm-144",
+   "type": "vm",
+   "region": "eu-west-1",
+   "tags": {},
+   "cost": 779.0,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 32.3,
+   "backup": true
+  },
+  {
+   "id": "bucket-145",
+   "type": "bucket",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-7",
+    "cost_center": "CC115"
+   },
+   "cost": 215.38,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "bucket-146",
+   "type": "bucket",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-11"
+   },
+   "cost": 262.53,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "disk-147",
+   "type": "disk",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-5"
+   },
+   "cost": 27.69,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "bucket-148",
+   "type": "bucket",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-10",
+    "cost_center": "CC129"
+   },
+   "cost": 216.6,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "bucket-149",
+   "type": "bucket",
+   "region": "af-south-1",
+   "tags": {
+    "owner": "team-8",
+    "cost_center": "CC113"
+   },
+   "cost": 59.22,
+   "public": false,
+   "encrypted": false,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "bucket-150",
+   "type": "bucket",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-7"
+   },
+   "cost": 8.93,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "k8s-151",
+   "type": "k8s",
+   "region": "ap-southeast-1",
+   "tags": {
+    "owner": "team-4",
+    "cost_center": "CC119"
+   },
+   "cost": 1770.4,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 28.0,
+   "backup": true
+  },
+  {
+   "id": "vm-152",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {},
+   "cost": 540.88,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 25.4,
+   "backup": false
+  },
+  {
+   "id": "disk-153",
+   "type": "disk",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-5"
+   },
+   "cost": 81.46,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "db-154",
+   "type": "db",
+   "region": "af-south-1",
+   "tags": {
+    "owner": "team-12",
+    "cost_center": "CC124"
+   },
+   "cost": 1745.22,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "db-155",
+   "type": "db",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-11",
+    "cost_center": "CC119"
+   },
+   "cost": 1614.91,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "vm-156",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-7",
+    "cost_center": "CC103"
+   },
+   "cost": 346.25,
+   "public": false,
+   "encrypted": false,
+   "critical": true,
+   "cpu_avg": 24.8,
+   "backup": false
+  },
+  {
+   "id": "db-157",
+   "type": "db",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-2",
+    "cost_center": "CC118"
+   },
+   "cost": 485.42,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "vm-158",
+   "type": "vm",
+   "region": "ap-southeast-1",
+   "tags": {
+    "owner": "team-7",
+    "cost_center": "CC134"
+   },
+   "cost": 578.86,
+   "public": false,
+   "encrypted": true,
+   "critical": true,
+   "cpu_avg": 62.7,
+   "backup": false
+  },
+  {
+   "id": "disk-159",
+   "type": "disk",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-12",
+    "cost_center": "CC113"
+   },
+   "cost": 91.61,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "bucket-160",
+   "type": "bucket",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-4",
+    "cost_center": "CC108"
+   },
+   "cost": 169.37,
+   "public": false,
+   "encrypted": false,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "vm-161",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-10",
+    "cost_center": "CC100"
+   },
+   "cost": 650.63,
+   "public": false,
+   "encrypted": true,
+   "critical": true,
+   "cpu_avg": 33.1,
+   "backup": true
+  },
+  {
+   "id": "disk-162",
+   "type": "disk",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-6"
+   },
+   "cost": 13.14,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "disk-163",
+   "type": "disk",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-2",
+    "cost_center": "CC132"
+   },
+   "cost": 93.29,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "k8s-164",
+   "type": "k8s",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-2",
+    "cost_center": "CC123"
+   },
+   "cost": 1840.73,
+   "public": false,
+   "encrypted": false,
+   "critical": false,
+   "cpu_avg": 24.6,
+   "backup": true
+  },
+  {
+   "id": "vm-165",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-6",
+    "cost_center": "CC131"
+   },
+   "cost": 302.79,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 46.2,
+   "backup": false
+  },
+  {
+   "id": "vm-166",
+   "type": "vm",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-5",
+    "cost_center": "CC108"
+   },
+   "cost": 723.06,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 62.1,
+   "backup": false
+  },
+  {
+   "id": "vm-167",
+   "type": "vm",
+   "region": "ap-southeast-1",
+   "tags": {
+    "owner": "team-1",
+    "cost_center": "CC102"
+   },
+   "cost": 579.12,
+   "public": false,
+   "encrypted": true,
+   "critical": true,
+   "cpu_avg": 63.8,
+   "backup": false
+  },
+  {
+   "id": "bucket-168",
+   "type": "bucket",
+   "region": "eu-west-1",
+   "tags": {},
+   "cost": 205.89,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "db-169",
+   "type": "db",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-3",
+    "cost_center": "CC102"
+   },
+   "cost": 2336.71,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "vm-170",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-12",
+    "cost_center": "CC116"
+   },
+   "cost": 108.08,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 40.9,
+   "backup": false
+  },
+  {
+   "id": "bucket-171",
+   "type": "bucket",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-2",
+    "cost_center": "CC126"
+   },
+   "cost": 276.0,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "bucket-172",
+   "type": "bucket",
+   "region": "us-east-1",
+   "tags": {},
+   "cost": 126.66,
+   "public": true,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "vm-173",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-1",
+    "cost_center": "CC100"
+   },
+   "cost": 872.41,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 9.9,
+   "backup": true
+  },
+  {
+   "id": "db-174",
+   "type": "db",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-12",
+    "cost_center": "CC111"
+   },
+   "cost": 1906.02,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "db-175",
+   "type": "db",
+   "region": "ap-southeast-1",
+   "tags": {
+    "owner": "team-9",
+    "cost_center": "CC131"
+   },
+   "cost": 747.02,
+   "public": false,
+   "encrypted": false,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "vm-176",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-11",
+    "cost_center": "CC139"
+   },
+   "cost": 678.14,
+   "public": false,
+   "encrypted": true,
+   "critical": true,
+   "cpu_avg": 34.6,
+   "backup": true
+  },
+  {
+   "id": "k8s-177",
+   "type": "k8s",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-8",
+    "cost_center": "CC130"
+   },
+   "cost": 2473.14,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 44.4,
+   "backup": false
+  },
+  {
+   "id": "k8s-178",
+   "type": "k8s",
+   "region": "us-east-1",
+   "tags": {},
+   "cost": 1160.21,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 49.5,
+   "backup": false
+  },
+  {
+   "id": "vm-179",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-1",
+    "cost_center": "CC109"
+   },
+   "cost": 431.42,
+   "public": false,
+   "encrypted": false,
+   "critical": false,
+   "cpu_avg": 48.3,
+   "backup": false
+  },
+  {
+   "id": "disk-180",
+   "type": "disk",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-1"
+   },
+   "cost": 39.48,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "db-181",
+   "type": "db",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-3"
+   },
+   "cost": 1493.98,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "disk-182",
+   "type": "disk",
+   "region": "us-east-1",
+   "tags": {},
+   "cost": 19.36,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "vm-183",
+   "type": "vm",
+   "region": "eu-west-1",
+   "tags": {},
+   "cost": 635.68,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 1.3,
+   "backup": false
+  },
+  {
+   "id": "db-184",
+   "type": "db",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-2",
+    "cost_center": "CC134"
+   },
+   "cost": 697.24,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "disk-185",
+   "type": "disk",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-8",
+    "cost_center": "CC132"
+   },
+   "cost": 30.81,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "db-186",
+   "type": "db",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-10",
+    "cost_center": "CC122"
+   },
+   "cost": 500.17,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "k8s-187",
+   "type": "k8s",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-11",
+    "cost_center": "CC129"
+   },
+   "cost": 1952.75,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 2.4,
+   "backup": true
+  },
+  {
+   "id": "disk-188",
+   "type": "disk",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-10"
+   },
+   "cost": 111.8,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "k8s-189",
+   "type": "k8s",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-10",
+    "cost_center": "CC108"
+   },
+   "cost": 922.57,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 0.4,
+   "backup": false
+  },
+  {
+   "id": "disk-190",
+   "type": "disk",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-2",
+    "cost_center": "CC138"
+   },
+   "cost": 111.44,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "vm-191",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-2",
+    "cost_center": "CC132"
+   },
+   "cost": 210.98,
+   "public": false,
+   "encrypted": false,
+   "critical": false,
+   "cpu_avg": 16.3,
+   "backup": true
+  },
+  {
+   "id": "vm-192",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-9",
+    "cost_center": "CC101"
+   },
+   "cost": 724.83,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 69.0,
+   "backup": true
+  },
+  {
+   "id": "vm-193",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {},
+   "cost": 565.0,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 1.6,
+   "backup": true
+  },
+  {
+   "id": "vm-194",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-3",
+    "cost_center": "CC128"
+   },
+   "cost": 635.67,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 14.5,
+   "backup": true
+  },
+  {
+   "id": "disk-195",
+   "type": "disk",
+   "region": "ap-southeast-1",
+   "tags": {
+    "owner": "team-10",
+    "cost_center": "CC123"
+   },
+   "cost": 25.37,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "disk-196",
+   "type": "disk",
+   "region": "us-east-1",
+   "tags": {},
+   "cost": 47.38,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "bucket-197",
+   "type": "bucket",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-4",
+    "cost_center": "CC103"
+   },
+   "cost": 138.16,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "k8s-198",
+   "type": "k8s",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-1",
+    "cost_center": "CC117"
+   },
+   "cost": 2490.78,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 2.2,
+   "backup": false
+  },
+  {
+   "id": "vm-199",
+   "type": "vm",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-11",
+    "cost_center": "CC113"
+   },
+   "cost": 177.74,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 30.8,
+   "backup": true
+  },
+  {
+   "id": "vm-200",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-7",
+    "cost_center": "CC118"
+   },
+   "cost": 762.51,
+   "public": false,
+   "encrypted": false,
+   "critical": false,
+   "cpu_avg": 3.0,
+   "backup": false
+  },
+  {
+   "id": "bucket-201",
+   "type": "bucket",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-8",
+    "cost_center": "CC100"
+   },
+   "cost": 283.38,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "k8s-202",
+   "type": "k8s",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-3",
+    "cost_center": "CC108"
+   },
+   "cost": 999.09,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 58.2,
+   "backup": false
+  },
+  {
+   "id": "db-203",
+   "type": "db",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-3"
+   },
+   "cost": 2057.22,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "vm-204",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-12"
+   },
+   "cost": 365.07,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 66.2,
+   "backup": true
+  },
+  {
+   "id": "k8s-205",
+   "type": "k8s",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-11"
+   },
+   "cost": 2562.22,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 1.8,
+   "backup": false
+  },
+  {
+   "id": "vm-206",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-8",
+    "cost_center": "CC133"
+   },
+   "cost": 280.68,
+   "public": false,
+   "encrypted": true,
+   "critical": true,
+   "cpu_avg": 54.8,
+   "backup": false
+  },
+  {
+   "id": "bucket-207",
+   "type": "bucket",
+   "region": "af-south-1",
+   "tags": {
+    "owner": "team-2"
+   },
+   "cost": 150.97,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "vm-208",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-3"
+   },
+   "cost": 535.4,
+   "public": false,
+   "encrypted": false,
+   "critical": true,
+   "cpu_avg": 4.2,
+   "backup": false
+  },
+  {
+   "id": "vm-209",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {},
+   "cost": 444.25,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 1.0,
+   "backup": true
+  },
+  {
+   "id": "bucket-210",
+   "type": "bucket",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-5",
+    "cost_center": "CC107"
+   },
+   "cost": 124.67,
+   "public": true,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "vm-211",
+   "type": "vm",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-12",
+    "cost_center": "CC125"
+   },
+   "cost": 848.82,
+   "public": false,
+   "encrypted": true,
+   "critical": true,
+   "cpu_avg": 58.9,
+   "backup": true
+  },
+  {
+   "id": "k8s-212",
+   "type": "k8s",
+   "region": "us-east-1",
+   "tags": {},
+   "cost": 1271.21,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 56.5,
+   "backup": false
+  },
+  {
+   "id": "disk-213",
+   "type": "disk",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-9"
+   },
+   "cost": 84.82,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  },
+  {
+   "id": "db-214",
+   "type": "db",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-2",
+    "cost_center": "CC133"
+   },
+   "cost": 621.84,
+   "public": false,
+   "encrypted": true,
+   "critical": true,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "k8s-215",
+   "type": "k8s",
+   "region": "af-south-1",
+   "tags": {
+    "owner": "team-8",
+    "cost_center": "CC140"
+   },
+   "cost": 2930.56,
+   "public": false,
+   "encrypted": true,
+   "critical": true,
+   "cpu_avg": 43.8,
+   "backup": false
+  },
+  {
+   "id": "bucket-216",
+   "type": "bucket",
+   "region": "us-east-1",
+   "tags": {},
+   "cost": 34.65,
+   "public": true,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": true
+  },
+  {
+   "id": "vm-217",
+   "type": "vm",
+   "region": "eu-west-1",
+   "tags": {
+    "owner": "team-6",
+    "cost_center": "CC110"
+   },
+   "cost": 863.99,
+   "public": false,
+   "encrypted": true,
+   "critical": true,
+   "cpu_avg": 33.2,
+   "backup": true
+  },
+  {
+   "id": "vm-218",
+   "type": "vm",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-3",
+    "cost_center": "CC118"
+   },
+   "cost": 304.77,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": 20.8,
+   "backup": false
+  },
+  {
+   "id": "db-219",
+   "type": "db",
+   "region": "us-east-1",
+   "tags": {
+    "owner": "team-7",
+    "cost_center": "CC112"
+   },
+   "cost": 2245.75,
+   "public": false,
+   "encrypted": true,
+   "critical": false,
+   "cpu_avg": null,
+   "backup": false
+  }
+ ],
+ "iam": {
+  "root_mfa": false,
+  "users": [
+   {
+    "name": "user0",
+    "mfa": false,
+    "last_used_days": 30
+   },
+   {
+    "name": "user1",
+    "mfa": true,
+    "last_used_days": 60
+   },
+   {
+    "name": "user2",
+    "mfa": false,
+    "last_used_days": 30
+   },
+   {
+    "name": "user3",
+    "mfa": true,
+    "last_used_days": 260
+   },
+   {
+    "name": "user4",
+    "mfa": true,
+    "last_used_days": 30
+   },
+   {
+    "name": "user5",
+    "mfa": false,
+    "last_used_days": 3
+   },
+   {
+    "name": "user6",
+    "mfa": true,
+    "last_used_days": 3
+   },
+   {
+    "name": "user7",
+    "mfa": true,
+    "last_used_days": 200
+   },
+   {
+    "name": "user8",
+    "mfa": true,
+    "last_used_days": 60
+   },
+   {
+    "name": "user9",
+    "mfa": true,
+    "last_used_days": 361
+   },
+   {
+    "name": "user10",
+    "mfa": true,
+    "last_used_days": 473
+   },
+   {
+    "name": "user11",
+    "mfa": false,
+    "last_used_days": 200
+   },
+   {
+    "name": "user12",
+    "mfa": true,
+    "last_used_days": 120
+   },
+   {
+    "name": "user13",
+    "mfa": true,
+    "last_used_days": 400
+   },
+   {
+    "name": "user14",
+    "mfa": true,
+    "last_used_days": 200
+   },
+   {
+    "name": "user15",
+    "mfa": false,
+    "last_used_days": 232
+   },
+   {
+    "name": "user16",
+    "mfa": false,
+    "last_used_days": 200
+   },
+   {
+    "name": "user17",
+    "mfa": true,
+    "last_used_days": 97
+   },
+   {
+    "name": "user18",
+    "mfa": true,
+    "last_used_days": 3
+   },
+   {
+    "name": "user19",
+    "mfa": true,
+    "last_used_days": 387
+   },
+   {
+    "name": "user20",
+    "mfa": true,
+    "last_used_days": 238
+   },
+   {
+    "name": "user21",
+    "mfa": false,
+    "last_used_days": 60
+   },
+   {
+    "name": "user22",
+    "mfa": false,
+    "last_used_days": 30
+   },
+   {
+    "name": "user23",
+    "mfa": true,
+    "last_used_days": 60
+   },
+   {
+    "name": "user24",
+    "mfa": true,
+    "last_used_days": 200
+   },
+   {
+    "name": "user25",
+    "mfa": true,
+    "last_used_days": 350
+   },
+   {
+    "name": "user26",
+    "mfa": true,
+    "last_used_days": 120
+   },
+   {
+    "name": "user27",
+    "mfa": true,
+    "last_used_days": 120
+   },
+   {
+    "name": "user28",
+    "mfa": true,
+    "last_used_days": 400
+   },
+   {
+    "name": "user29",
+    "mfa": false,
+    "last_used_days": 400
+   },
+   {
+    "name": "user30",
+    "mfa": true,
+    "last_used_days": 30
+   },
+   {
+    "name": "user31",
+    "mfa": true,
+    "last_used_days": 3
+   },
+   {
+    "name": "user32",
+    "mfa": true,
+    "last_used_days": 60
+   },
+   {
+    "name": "user33",
+    "mfa": true,
+    "last_used_days": 30
+   },
+   {
+    "name": "user34",
+    "mfa": true,
+    "last_used_days": 359
+   },
+   {
+    "name": "user35",
+    "mfa": false,
+    "last_used_days": 60
+   },
+   {
+    "name": "user36",
+    "mfa": true,
+    "last_used_days": 120
+   },
+   {
+    "name": "user37",
+    "mfa": true,
+    "last_used_days": 3
+   },
+   {
+    "name": "user38",
+    "mfa": true,
+    "last_used_days": 3
+   },
+   {
+    "name": "user39",
+    "mfa": true,
+    "last_used_days": 200
+   },
+   {
+    "name": "user40",
+    "mfa": true,
+    "last_used_days": 10
+   },
+   {
+    "name": "user41",
+    "mfa": false,
+    "last_used_days": 60
+   },
+   {
+    "name": "user42",
+    "mfa": true,
+    "last_used_days": 395
+   },
+   {
+    "name": "user43",
+    "mfa": true,
+    "last_used_days": 400
+   },
+   {
+    "name": "user44",
+    "mfa": true,
+    "last_used_days": 30
+   },
+   {
+    "name": "user45",
+    "mfa": false,
+    "last_used_days": 357
+   },
+   {
+    "name": "user46",
+    "mfa": true,
+    "last_used_days": 30
+   },
+   {
+    "name": "user47",
+    "mfa": true,
+    "last_used_days": 355
+   },
+   {
+    "name": "user48",
+    "mfa": false,
+    "last_used_days": 10
+   },
+   {
+    "name": "user49",
+    "mfa": true,
+    "last_used_days": 201
+   },
+   {
+    "name": "user50",
+    "mfa": true,
+    "last_used_days": 10
+   },
+   {
+    "name": "user51",
+    "mfa": true,
+    "last_used_days": 3
+   },
+   {
+    "name": "user52",
+    "mfa": true,
+    "last_used_days": 420
+   },
+   {
+    "name": "user53",
+    "mfa": true,
+    "last_used_days": 3
+   },
+   {
+    "name": "user54",
+    "mfa": false,
+    "last_used_days": 200
+   },
+   {
+    "name": "user55",
+    "mfa": true,
+    "last_used_days": 298
+   },
+   {
+    "name": "user56",
+    "mfa": false,
+    "last_used_days": 200
+   },
+   {
+    "name": "user57",
+    "mfa": true,
+    "last_used_days": 400
+   },
+   {
+    "name": "user58",
+    "mfa": true,
+    "last_used_days": 200
+   },
+   {
+    "name": "user59",
+    "mfa": false,
+    "last_used_days": 10
+   }
+  ],
+  "policies": [
+   {
+    "name": "policy-0",
+    "wildcard": false
+   },
+   {
+    "name": "policy-1",
+    "wildcard": false
+   },
+   {
+    "name": "policy-2",
+    "wildcard": true
+   },
+   {
+    "name": "policy-3",
+    "wildcard": true
+   },
+   {
+    "name": "policy-4",
+    "wildcard": false
+   },
+   {
+    "name": "policy-5",
+    "wildcard": true
+   },
+   {
+    "name": "policy-6",
+    "wildcard": true
+   },
+   {
+    "name": "policy-7",
+    "wildcard": true
+   },
+   {
+    "name": "policy-8",
+    "wildcard": false
+   },
+   {
+    "name": "policy-9",
+    "wildcard": false
+   },
+   {
+    "name": "policy-10",
+    "wildcard": false
+   },
+   {
+    "name": "policy-11",
+    "wildcard": false
+   },
+   {
+    "name": "policy-12",
+    "wildcard": true
+   },
+   {
+    "name": "policy-13",
+    "wildcard": true
+   },
+   {
+    "name": "policy-14",
+    "wildcard": false
+   },
+   {
+    "name": "policy-15",
+    "wildcard": false
+   },
+   {
+    "name": "policy-16",
+    "wildcard": false
+   },
+   {
+    "name": "policy-17",
+    "wildcard": false
+   },
+   {
+    "name": "policy-18",
+    "wildcard": true
+   },
+   {
+    "name": "policy-19",
+    "wildcard": false
+   },
+   {
+    "name": "policy-20",
+    "wildcard": true
+   },
+   {
+    "name": "policy-21",
+    "wildcard": false
+   },
+   {
+    "name": "policy-22",
+    "wildcard": false
+   },
+   {
+    "name": "policy-23",
+    "wildcard": false
+   },
+   {
+    "name": "policy-24",
+    "wildcard": false
+   },
+   {
+    "name": "policy-25",
+    "wildcard": false
+   },
+   {
+    "name": "policy-26",
+    "wildcard": true
+   },
+   {
+    "name": "policy-27",
+    "wildcard": false
+   },
+   {
+    "name": "policy-28",
+    "wildcard": false
+   },
+   {
+    "name": "policy-29",
+    "wildcard": false
+   },
+   {
+    "name": "policy-30",
+    "wildcard": false
+   },
+   {
+    "name": "policy-31",
+    "wildcard": false
+   },
+   {
+    "name": "policy-32",
+    "wildcard": false
+   },
+   {
+    "name": "policy-33",
+    "wildcard": true
+   },
+   {
+    "name": "policy-34",
+    "wildcard": false
+   },
+   {
+    "name": "policy-35",
+    "wildcard": false
+   },
+   {
+    "name": "policy-36",
+    "wildcard": false
+   },
+   {
+    "name": "policy-37",
+    "wildcard": false
+   },
+   {
+    "name": "policy-38",
+    "wildcard": false
+   },
+   {
+    "name": "policy-39",
+    "wildcard": false
+   }
+  ]
+ },
+ "accounts": [
+  {
+   "id": "acct-00",
+   "in_org": true,
+   "owner": "",
+   "budget_alert": true
+  },
+  {
+   "id": "acct-01",
+   "in_org": false,
+   "owner": "team-1",
+   "budget_alert": true
+  },
+  {
+   "id": "acct-02",
+   "in_org": true,
+   "owner": "team-2",
+   "budget_alert": true
+  },
+  {
+   "id": "acct-03",
+   "in_org": false,
+   "owner": "team-3",
+   "budget_alert": false
+  },
+  {
+   "id": "acct-04",
+   "in_org": true,
+   "owner": "team-4",
+   "budget_alert": true
+  },
+  {
+   "id": "acct-05",
+   "in_org": true,
+   "owner": "",
+   "budget_alert": true
+  },
+  {
+   "id": "acct-06",
+   "in_org": true,
+   "owner": "team-6",
+   "budget_alert": false
+  },
+  {
+   "id": "acct-07",
+   "in_org": true,
+   "owner": "team-7",
+   "budget_alert": true
+  },
+  {
+   "id": "acct-08",
+   "in_org": true,
+   "owner": "",
+   "budget_alert": true
+  },
+  {
+   "id": "acct-09",
+   "in_org": true,
+   "owner": "team-9",
+   "budget_alert": true
+  },
+  {
+   "id": "acct-10",
+   "in_org": true,
+   "owner": "team-10",
+   "budget_alert": false
+  },
+  {
+   "id": "acct-11",
+   "in_org": true,
+   "owner": "team-11",
+   "budget_alert": false
+  },
+  {
+   "id": "acct-12",
+   "in_org": true,
+   "owner": "team-12",
+   "budget_alert": false
+  },
+  {
+   "id": "acct-13",
+   "in_org": true,
+   "owner": "team-13",
+   "budget_alert": false
+  },
+  {
+   "id": "acct-14",
+   "in_org": true,
+   "owner": "team-14",
+   "budget_alert": true
+  },
+  {
+   "id": "acct-15",
+   "in_org": true,
+   "owner": "team-15",
+   "budget_alert": false
+  },
+  {
+   "id": "acct-16",
+   "in_org": true,
+   "owner": "",
+   "budget_alert": true
+  },
+  {
+   "id": "acct-17",
+   "in_org": true,
+   "owner": "team-17",
+   "budget_alert": true
+  },
+  {
+   "id": "acct-18",
+   "in_org": true,
+   "owner": "team-18",
+   "budget_alert": false
+  },
+  {
+   "id": "acct-19",
+   "in_org": true,
+   "owner": "team-19",
+   "budget_alert": true
+  },
+  {
+   "id": "acct-20",
+   "in_org": true,
+   "owner": "team-20",
+   "budget_alert": false
+  },
+  {
+   "id": "acct-21",
+   "in_org": true,
+   "owner": "team-21",
+   "budget_alert": false
+  },
+  {
+   "id": "acct-22",
+   "in_org": true,
+   "owner": "team-22",
+   "budget_alert": true
+  },
+  {
+   "id": "acct-23",
+   "in_org": true,
+   "owner": "team-23",
+   "budget_alert": true
+  },
+  {
+   "id": "acct-24",
+   "in_org": true,
+   "owner": "team-24",
+   "budget_alert": true
+  }
+ ]
+}

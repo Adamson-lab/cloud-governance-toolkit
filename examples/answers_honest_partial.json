@@ -1,0 +1,14 @@
+{
+ "ORG-1": "yes",
+ "ORG-2": "partial",
+ "SEC-3": "partial",
+ "DAT-2": "partial",
+ "DAT-3": "yes",
+ "RES-2": "no",
+ "RES-3": "no",
+ "AUT-1": "no",
+ "AUT-2": "partial",
+ "AUT-3": "no",
+ "TPR-2": "partial",
+ "TPR-3": "no"
+}
